@@ -19,5 +19,5 @@ js = json.loads(data)
 
 # print(json.dumps(js, indent=2))
 
-pid = js["results"][0]["place_id"]
-print('Place id', pid)
+id = js["results"][0]["place_id"]
+print('Place id', id)
